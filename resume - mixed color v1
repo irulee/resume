@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>李奕儒 — v1 Green</title>
+<title>李奕儒 — v2 Amber</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@ body {
 .lang-toggle-btn {
   background: rgba(0,0,0,0.45);
   border: 1px solid rgba(0,0,0,0.35);
-  color: #0a0800;
+  color: #070400;
   cursor: pointer;
   padding: 2px 10px;
   font-family: var(--f-mono);
@@ -61,8 +61,8 @@ body {
 .header-block { border: 1px solid var(--border); border-bottom: none; }
 
 .header-label {
-  background: var(--green);
-  color: #021208;
+  background: var(--amber);
+  color: #080500;
   font-family: var(--f-mono);
   font-size: 10.5px;
   letter-spacing: 0.3em;
@@ -123,7 +123,7 @@ body {
   font-family: var(--f-mono);
   font-size: 12px;
   letter-spacing: 0.28em;
-  color: var(--green);
+  color: var(--amber);
   margin-top: 4px;
   margin-bottom: 18px;
 }
@@ -137,7 +137,7 @@ body {
   font-size: 11.5px;
 }
 .info-k {
-  color: var(--green);
+  color: var(--amber);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   min-width: 44px;
@@ -150,7 +150,7 @@ body {
   word-break: break-all;
 }
 .info-v a { color: inherit; text-decoration: none; }
-.info-v a:hover { color: var(--amber); }
+.info-v a:hover { color: var(--green); }
 
 /* ── TAB BAR ─────────────────────── */
 .tab-bar {
@@ -169,7 +169,7 @@ body {
   background: none;
   border: none;
   border-right: 1px solid var(--border);
-  color: var(--green);
+  color: var(--amber);
   opacity: 0.5;
   cursor: pointer;
   font-family: var(--f-mono);
@@ -182,16 +182,16 @@ body {
 }
 .tab-btn:last-child { border-right: none; }
 .tab-btn.active {
-  color: var(--green);
+  color: var(--amber);
   opacity: 1;
-  background: rgba(40,190,82,0.08);
-  border-top: 2px solid var(--green);
+  background: rgba(192,152,14,0.08);
+  border-top: 2px solid var(--amber);
   box-shadow: none;
 }
 .tab-btn:hover:not(.active) {
-  color: var(--green);
+  color: var(--amber);
   opacity: 0.85;
-  background: rgba(40,190,82,0.05);
+  background: rgba(192,152,14,0.05);
 }
 
 /* ── CONTENT PANEL ───────────────── */
@@ -237,13 +237,13 @@ body {
   font-family: var(--f-mono);
   font-size: 10px;
   letter-spacing: 0.12em;
-  color: var(--green);
+  color: var(--amber);
   white-space: nowrap;
 }
 .entry-role {
   font-family: var(--f-mono);
   font-size: 10.5px;
-  color: var(--amber);
+  color: var(--green);
   letter-spacing: 0.05em;
   margin: 6px 0 12px;
   opacity: 0.88;
@@ -273,8 +273,8 @@ body {
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--amber);
-  border: 1px solid var(--amber);
+  color: var(--green);
+  border: 1px solid var(--green);
   padding: 2px 8px;
   margin-top: 8px;
   opacity: 0.8;
@@ -289,7 +289,7 @@ body {
   font-size: 9.5px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--amber);
   opacity: 0.8;
   margin-bottom: 14px;
   padding-bottom: 8px;
