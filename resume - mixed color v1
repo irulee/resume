@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>李奕儒 — v3 Mixed</title>
+<title>李奕儒 — v1 Green</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
@@ -169,7 +169,7 @@ body {
   background: none;
   border: none;
   border-right: 1px solid var(--border);
-  color: var(--amber);
+  color: var(--green);
   opacity: 0.5;
   cursor: pointer;
   font-family: var(--f-mono);
@@ -182,16 +182,16 @@ body {
 }
 .tab-btn:last-child { border-right: none; }
 .tab-btn.active {
-  color: var(--amber);
+  color: var(--green);
   opacity: 1;
-  background: rgba(192,152,14,0.08);
-  border-top: 2px solid var(--amber);
+  background: rgba(40,190,82,0.08);
+  border-top: 2px solid var(--green);
   box-shadow: none;
 }
 .tab-btn:hover:not(.active) {
-  color: var(--amber);
+  color: var(--green);
   opacity: 0.85;
-  background: rgba(192,152,14,0.05);
+  background: rgba(40,190,82,0.05);
 }
 
 /* ── CONTENT PANEL ───────────────── */
@@ -237,7 +237,7 @@ body {
   font-family: var(--f-mono);
   font-size: 10px;
   letter-spacing: 0.12em;
-  color: var(--amber);
+  color: var(--green);
   white-space: nowrap;
 }
 .entry-role {
